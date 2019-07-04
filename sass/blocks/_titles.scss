@@ -4,13 +4,20 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
+
     &_red {
         color: red;
         font-size: 36px;
         // text-align: left;
     }
+
     &_green {
         color: green;
         font-size: 20px;
     }
+}
+
+.dscription {
+    color: #810041;
+    font-weight: 700;
 }
