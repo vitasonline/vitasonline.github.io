@@ -1,10 +1,48 @@
 @import 'base/variables';
+
 * {
+    margin: 0;
     font-family: Geneva, Arial, Helvetica, sans-serif;
 }
+
+html,
+body {
+    height: 100%;
+}
+
 .container {
     max-width: 950px;
     margin: 0 auto;
 }
+
+.wrap {
+    background: #fff2aab7;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    .dscription{
+        padding-top: 10px;
+    }
+}
+
+.footer {
+    height: 40px;
+    background: cadetblue;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    text-align: center;
+
+    .info {
+        padding: 10px 0;
+    }
+}
+
 @import 'base/variables';
 @import 'blocks/titles';
