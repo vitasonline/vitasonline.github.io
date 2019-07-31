@@ -16,5 +16,14 @@
     "gulp-cli": "^2.2.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitasonline/vitasonline.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vitasonline/vitasonline.github.io/issues"
+  },
+  "homepage": "https://github.com/vitasonline/vitasonline.github.io#readme"
 }
