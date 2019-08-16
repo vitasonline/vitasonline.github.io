@@ -1,0 +1,30 @@
+.link-hover-center a {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+
+    &:after {
+        display: block;
+        content: "";
+        background-color: $main-color;
+        height: 2px;
+        width: 0%;
+        left: 50%;
+        position: absolute;
+        -webkit-transition: width .3s ease-in-out;
+        -moz--transition: width .3s ease-in-out;
+        transition: width .3s ease-in-out;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    &:hover,
+    &:focus {
+        &:after {
+            width: 100%;
+        }
+
+    }
+}

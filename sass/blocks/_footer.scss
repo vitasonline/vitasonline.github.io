@@ -1,0 +1,170 @@
+.footer {
+    min-height: 40px;
+    background: $text-color;
+    text-align: center;
+
+    &__info {
+        padding: 10px;
+        color: white;
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: $bg-color;
+        }
+    }
+
+    &__contacts {
+        padding-top: 10px;
+
+    }
+
+    &__social {
+        margin: 10px;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                margin-right: 10px;
+
+                a {
+                    display: block;
+                    border-radius: 100%;
+                    text-align: center;
+                    color: #fff;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    border: 0;
+                    border: 1px solid transparent;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #FFFFFF;
+
+                    }
+
+                    &.facebook {
+                        background-color: #4969a8;
+
+                        &:hover {
+                            color: #4969a8;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.twitter {
+                        background-color: #2aa3ef;
+
+                        &:hover {
+                            color: #2aa3ef;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+
+                    }
+
+                    &.instagram {
+                        background-color: #e8715c;
+
+                        &:hover {
+                            color: #e8715c;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.phone {
+                        background-color: #35fd6e;
+
+                        &:hover {
+                            color: #35fd6e;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.vk {
+                        background-color: #2e6ab7;
+
+                        &:hover {
+                            color: #2e6ab7;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.whatsapp {
+                        background-color: #37fe16;
+
+                        &:hover {
+                            color: #37fe16;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.telegram {
+                        background-color: #41e8e6;
+
+                        &:hover {
+                            color: #41e8e6;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.email {
+                        background-color: #1c61f6;
+
+                        &:hover {
+                            color: #1c61f6;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.youtube {
+                        background-color: #d71013;
+
+                        &:hover {
+                            color: #d71013;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.skype {
+                        background-color: #45c1f3;
+
+                        &:hover {
+                            color: #45c1f3;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &.git {
+                        background-color: #23688e;
+
+                        &:hover {
+                            color: #23688e;
+                            border-color: currentColor;
+                            background-color: transparent;
+                        }
+                    }
+
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+
+    }
+}

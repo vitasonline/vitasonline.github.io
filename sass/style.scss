@@ -1,60 +1,25 @@
 @import 'base/variables';
 
-* {
-    margin: 0;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
-}
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/owl.carousel';
+@import 'libs/animate';
+@import 'libs/decoration';
 
-html,
-body {
-    height: 100%;
+@import 'blocks/header';
+@import 'blocks/info';
+@import 'blocks/footer';
+@import 'blocks/titles';
+@import 'blocks/buttons';
+@import 'blocks/slider';
+@import 'blocks/media';
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
-    max-width: 950px;
+    max-width: 1200px;
     margin: 0 auto;
 }
-
-.wrap {
-    background: #fcffcf;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.content {
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
-    text-align: center;
-    .dscription{
-        padding-top: 10px;
-        color: #ea6023;
-        font-weight: 700;
-    }
-    img {
-        width: 100%;
-        padding-top: 20px;
-    }
-}
-
-.footer {
-    height: 40px;
-    background: #2b786d;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: auto;
-    text-align: center;
-    color: white;
-    .info {
-        padding: 10px 0;
-    }
-    a {
-        text-decoration: none;
-        color: #fcffcf;
-        font-weight: 700;
-    }
-}
-
-@import 'base/variables';
-@import 'blocks/titles';

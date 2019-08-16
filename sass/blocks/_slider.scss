@@ -1,0 +1,73 @@
+.slider {
+
+    &__bg {
+        min-height: 800px;
+        background: $bg-color;
+
+        img {
+            top: 0;
+            float: right;
+        }
+
+    }
+
+    &__area {
+        position: absolute;
+        left: 0;
+        top: 150px;
+        width: 100%;
+    }
+
+    &__item {
+        min-height: 525px;
+        background-repeat: no-repeat;
+        background-position: right 150px bottom 30px;
+    }
+
+    &__content {
+        padding: 200px 15px;
+
+        h1 {
+            font-family: 'Days';
+            font-size: 50px;
+            line-height: 56px;
+            letter-spacing: 1.25px;
+            color: $text-color;
+        }
+
+        p {
+            font-family: 'Days';
+            font-size: 20px;
+            line-height: 34px;
+            color: $text-color;
+
+        }
+    }
+
+    &__button {
+        margin-top: 30px;
+
+        a {
+            font-family: Open Sans;
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 1.2px;
+            color: $text-color;
+            text-transform: uppercase;
+            cursor: pointer;
+            padding: 10px 25px;
+            transition: 0.3s;
+            background: $main-color;
+            border: 2px solid $main-color;
+            border-radius: 25px;
+        }
+
+        a:hover {
+            background: transparent;
+            border: 2px solid #bbd147;
+            background: $bg-color;
+            text-decoration: none;
+        }
+
+    }
+}
